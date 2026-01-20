@@ -1,0 +1,187 @@
+body{
+    background-color: #0B0B0B;
+    background-image: url(/Images/Background2.jpg);
+    
+}
+
+.title2{
+    color: wheat;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 50px;
+    
+}
+.title{
+    /* text-align: center; */
+    margin-top: 80px;
+    font-size: 400%;
+    color:#F5F5F5;
+    border: 2px wheat solid;
+    display: inline-block;
+    padding: 20px;
+    font-size: 500%;
+}
+
+.content1{
+    color: whitesmoke;
+    margin-left: 70px;
+    margin-top: 90px;
+    font-size: 150%;
+}
+
+.list2{
+    margin-left: 70px;
+    color: white;
+}
+
+.list2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+.list2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.list2 a:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.navigations{
+    margin-top: 300px;
+}
+
+.list1 li a{
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    font-size: 200%;
+    
+    text-decoration: none;
+    color: #F5F5F5
+    
+}
+
+.list1 li:hover a{
+    /* text-decoration: underline; */
+    opacity: 0.5;
+    color:#C9A86A;
+    
+    font-weight: bold;
+}
+
+.title3{
+    color: antiquewhite;
+    text-align: center;
+
+    font-weight: bold;
+    font-style: italic;
+}
+
+.login{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 150%;
+    border: 2px whitesmoke solid;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 50px;
+
+}
+
+.login form input{
+    background-color: aliceblue;
+    font-size: 70%;
+}
+
+.submit:hover{
+    opacity: 0.5;
+}
+
+.blog{
+    display:inline-block;;
+    color: aliceblue;;
+}
+
+.blog input{
+    background-color: whitesmoke
+}
+
+nav{
+
+    padding: 30px;
+    /* background-color: aliceblue; */
+    display: flex;
+    /* background-image:url("../Images/Background1.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F6EAD7;
+
+}
+
+.nav{
+    background-color: #F6EAD7;
+}
+
+.nav1{
+    padding-top: 8 px;
+    word-spacing: 18px;
+}
+
+.nav2{
+     padding-top: 8 px;
+    word-spacing: 18px;
+}
+.nav1 span a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav1 span:hover{
+    opacity: 0.5;
+    color: #C9A86A;
+}
+
+.nav2{
+    margin-left: auto;
+}
+
+.nav2 a{
+   color: #2B2B2B;
+    text-decoration: none;
+}
+
+.nav2 a:hover{
+    opacity: 0.5;
+    color: #C9A86A;
+}
+
+.footer{
+    padding: 10px;
+}
+
+.nav p a{
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.nav p:hover a{
+    opacity: 0.5;
+}
+
+.Submitx:hover{
+    opacity: 0.5;
+   
+}
